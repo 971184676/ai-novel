@@ -1,0 +1,4 @@
+# Security & cache headers for static assets
+/assets/*   /assets/:splat   200
+/favicon.svg   /favicon.svg   200
+/tutorial/*   /tutorial/:splat   200
