@@ -63,3 +63,9 @@ dist-old/
 
 # Screenshots and images (not source)
 *.png
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
