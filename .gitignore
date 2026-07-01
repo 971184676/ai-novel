@@ -1,0 +1,65 @@
+node_modules
+# dist  ← 已注释：部署产物，需要上传到 GitHub
+dist-ssr
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+build
+.cache
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite dev cache
+.vite
+.vite-cache*
+vite.config.ts.timestamp-*.mjs
+vite.config.js.timestamp-*.mjs
+
+# Project tooling caches
+.harness/
+.mavis/
+.verify/
+
+# Backup / stale build dirs
+# dist-retry/  ← 已注释：部署目录，需要上传到 GitHub
+.dist.bak/
+node_modules.backup/
+
+# Temp files
+_tmp_*
+.trae_permission_check_*
+*.tmp.*
+
+# Old / renamed build dirs
+_old_dist_/
+dist-old/
+
+# Claude Code local config
+.claude/
+
+# Screenshots and images (not source) — only root-level screenshots
+/*.png
